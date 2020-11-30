@@ -1,0 +1,115 @@
+baseurl: /
+languageCode: en-us
+defaultContentLanguage: en
+theme: hugo-w3-simple
+disqusShortname: ''
+googleAnalytics: ''
+paginate: 12
+hasCJKLanguage: yes
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+languages:
+  en:
+    contentDir: content/english
+    languageName: English
+    menu:
+      main:
+        - name: About
+          url: /about/
+          weight: 2
+        - name: Categories
+          url: /categories/
+          weight: 3
+        - name: Tags
+          url: /tags/
+          weight: 4
+        - name: All Posts
+          url: /allposts/
+          weight: 5
+        - name: Chinese
+          url: /zh-cn/
+          weight: 6
+    params:
+      authorinfo: <h4>Authored By John Doe</h4>
+      cookie_info: This website uses cookies to ensure you get the best experience
+        on our website. [Learn more](/privacy-policy/)
+      isso_baseurl: ''
+      isso_langcode: en
+      licenseinfo: <p class="w3-small">John Doe, a good man living on the earth, loving
+        making website with hugo. This article is licensed under a <a rel="license"
+        href="https://creativecommons.org/licenses/by/4.0/" class="w3-text-white">Creative
+        Commons Attribution 4.0 International License</a>.</p>
+      logotext: HUGO W3 SIMPLE
+      title: Hugo W3 Simple Theme
+    weight: 0
+  zh-cn:
+    contentDir: content/chinese
+    languageName: Chinese
+    menu:
+      main:
+        - name: 关于
+          url: /zh-cn/about/
+          weight: 2
+        - name: 分类
+          url: /zh-cn/categories/
+          weight: 3
+        - name: 标签
+          url: /zh-cn/tags/
+          weight: 4
+        - name: 全部帖子
+          url: /zh-cn/allposts/
+          weight: 5
+        - name: English
+          url: /
+          weight: 6
+    params:
+      authorinfo: <h4>本文由王一贴原创</h4>
+      isso_baseurl: ''
+      isso_langcode: zh
+      licenseinfo: <p class="w3-small">王一贴，曾记录于《红楼梦》第八十回人物。任何问题，一贴搞定.<br>本文采用<a rel="license"
+        href="http://creativecommons.org/licenses/by/4.0/" class="w3-text-white">知识共享署名
+        4.0 国际许可协议</a>进行许可。</p>
+      logotext: 王一贴的博客
+      title: 王一贴的博客
+    weight: 10
+params:
+  allliststyle: no
+  allowads: yes
+  authorandlicense: yes
+  authorimgurl: https://raw.githubusercontent.com/jesselau76/hugo-w3-simple/master/exampleSite/images/johndoe.jpg
+  backtotop: yes
+  description: Hugo W3 Simple Theme
+  firstpic: yes
+  footer: '&copy; [John Doe](https://johndoe.com) 2018 | [Github](https://github.com/johndoe)
+    | [Twitter](https://twitter.com/johndoe)  | [RSS](/index.xml)'
+  glowlogo: yes
+  googletranslate: yes
+  gridstyle: yes
+  lazyload: yes
+  logotext: HUGO W3 SIMPLE
+  onesignalid: ''
+  readingtime: yes
+  relatedPosts: yes
+  scrollindicator: yes
+  searchfunction: yes
+  social:
+    a-envelope: mailto:your@email.com
+    b-stack-overflow: https://stackoverflow.com/users/12345678/john-doe
+    c-twitter: https://twitter.com/johndoe
+    d-facebook: https://www.facebook.com/johndoe
+    e-github: https://github.com/johndoe
+    f-youtube: https://www.youtube.com/channel/12345678
+    g-linkedin: https://www.linkedin.com/johndoe
+    h-google: https://plus.google.com/12345678
+    i-github: https://github.com/johndoe
+    j-weibo: https://weibo.com
+    k-weixin: http://localhost:1313
+    l-tumblr: https://www.tumblr.com/blog/johndoe
+    m-instagram: https://instagram.com/johndoe
+    n-gitlab: https://gitlab.com/johndoe
+    o-pinterest: https://www.pinterest.com/johndoe/
+  socialicon: yes
+  socialshare: yes
+  welcomemessage: no
